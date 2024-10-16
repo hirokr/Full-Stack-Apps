@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: var(--notSure); */
+  min-height: 60px;
+  width: 90vw;
+}
+
+.logo{
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+
+.logo, .icon{
+  margin-left: 20px;
+  align-items: flex-start;
+  min-width: 40px;
+  height: 40px;
+}
+.logo:hover{
+  color: var(--hover);
+}
+
+.logout{
+  margin-right: 20px;
+}
+
