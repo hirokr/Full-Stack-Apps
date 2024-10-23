@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* COLOR  */
+  --delete-btn: #89023e;
+  --edit-btn: #C7D9B7;
+  --text: #F3E1DD;
+  --bgcol: #5b7585;
+  --todo-cart: #916580;
+
+  /* FONTS  */
+  --logo: "Playwrite GB S", sans-serif;
+  --text-font: "Roboto", sans-serif;
+  /* SIZE  */
+  --h1: 3rem;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 
 html,
 body {
@@ -17,11 +26,11 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--text);
+  background: var(--bgcol);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -moz-osx-font-smoothing: grayscale; */
 }
 
 * {
@@ -35,8 +44,4 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
+
